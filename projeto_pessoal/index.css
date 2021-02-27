@@ -1,0 +1,55 @@
+* {
+    overflow-y: hidden;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.cadastro {
+    height: 600px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "titulo"
+                         "input-nome"
+                         "input-email"
+                         "input-senha"
+                         "input-confirma"
+                         "input-submit";
+    border: solid 1px black;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.input-nome {
+    grid-area: input-nome;
+}
+
+.input-email {
+    grid-area: input-email;
+}
+.input-senha {
+    grid-area: input-senha;
+    margin: 5px;
+}
+
+.input-confirma-email {
+    grid-area: input-confirma;
+}
+
+.input-submit {
+    grid-area: input-submit;
+    
+}
+
+label {
+    display:flex; 
+    justify-content: center;
+    margin-bottom: 5px;
+}
