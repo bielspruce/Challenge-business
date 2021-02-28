@@ -2,29 +2,30 @@
     overflow-y: hidden;
 }
 
-body {
+.body {
     height: 100vh;
     display: flex;
     justify-content: center;    
     align-items: center;
+    background-color: rgb(58, 161, 209);
 }
 
 .cadastro {
-    height: 600px;
-    width: 400px;
+    height: 800px;
+    width: 900px;
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px;
     grid-template-columns: 1fr;
     grid-template-areas: "titulo"
                          "input-nome"
                          "input-email"
                          "input-senha"
                          "input-confirma"
+                         "sala"
                          "input-submit";
-    border: solid 1px black;
     border-radius: 5px;
     justify-items: center;
     align-items: center;
+    background-color: rgb(241, 240, 240);
 }
 
 .input-nome {
@@ -36,16 +37,14 @@ body {
 }
 .input-senha {
     grid-area: input-senha;
-    margin: 5px;
 }
 
-.input-confirma-email {
+.input-confirma-senha {
     grid-area: input-confirma;
 }
 
-.input-submit {
-    grid-area: input-submit;
-    
+.sala{
+    grid-area: sala;
 }
 
 label {

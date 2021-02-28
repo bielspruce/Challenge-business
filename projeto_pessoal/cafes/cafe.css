@@ -1,0 +1,66 @@
+*{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(39, 128, 128);
+}
+
+.cafes{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sala-cafe{
+    height: 70vh;
+    width: 25vw;
+    background-color: white;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.imagem {
+    height: 50%;
+    width: 100%;
+    background-color: burlywood;
+}
+
+.conteudo {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.quantidade-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(236, 236, 236);
+}
+
+.quantidade {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+.horario {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}

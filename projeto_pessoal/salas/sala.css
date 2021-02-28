@@ -1,0 +1,84 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100%;
+    overflow-y: hidden;
+    background-color: rgb(39, 128, 128);
+}
+
+.user{
+    height: 30px;
+    width: 100%;
+}
+
+.salas {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 600px;
+    grid-template-areas: 'sala1 sala2 sala3';
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.sala1 {
+    grid-area: sala1;
+    height: 100%;
+    width: 90%;
+}
+
+.sala2 {
+    grid-area: sala2;
+    height: 100%;
+    width: 90%;
+}
+
+.sala3 {
+   grid-area: sala3;
+   height: 100%;
+   width: 90%;
+   
+}
+
+.imagem {
+    height: 49%;
+    background-color: rgb(65, 223, 73);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    height: 50.80%;
+    background-color: rgb(238, 236, 236);
+}
+
+.quantidade {
+    color: rgb(240, 240, 240);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info-salas{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+.info-lotacao  {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
